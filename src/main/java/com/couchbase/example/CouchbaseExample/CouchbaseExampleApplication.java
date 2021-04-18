@@ -13,7 +13,7 @@ public class CouchbaseExampleApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CouchbaseExampleApplication.class, args);
 		Logger logger = LoggerFactory.getLogger(CouchbaseExampleApplication.class);
-		logger.info("Application is UP!");
+		logger.info("Application is UP");
 	}
 
 }
